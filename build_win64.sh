@@ -21,6 +21,9 @@ gcc -m64 -O2 -std=gnu99 -shared \
  tolua.c \
  int64.c \
  uint64.c \
+ lpack.c \
+ lsha1.c \
+ lua_crypt.c \
  pb.c \
  lpeg.c \
  struct.c \
